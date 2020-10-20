@@ -25,19 +25,34 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+
+
+    <!-- <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+<link
+rel="stylesheet"
+href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+type="text/css"
+/> -->
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div class="sidebar">
+      <div class="heading"><h1>Our locations</h1></div>
+     
+    </div>
+    <div id="map" class="map pad2">Map</div>
+  
   </body>
+  <!-- <script>
+     function showMap() {
+      window.open("https://www.google.com/maps/dir/?api=1&travelmode=driving&layer=traffic&destination=76.8035, 30.7173");
+     }
+  </script> -->
 </html>
+
+<!-- const ShowMap = () => {
+  // window.open("https://maps.google.com?q="+31.3260+","+75.5762+","+28.7041+","+77.1025)
+  window.open("https://www.google.com/maps/dir/?api=1&travelmode=driving&layer=traffic&destination=28.7041,77.1025")
+} -->
